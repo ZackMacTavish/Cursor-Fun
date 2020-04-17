@@ -57,7 +57,7 @@ nav{
     height: 3rem;
     /*border: 2px solid black; */
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: all 0.3s ease;
