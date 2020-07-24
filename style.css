@@ -70,10 +70,26 @@ nav{
 .link-grow {
     transform: scale(2);
     background: black;
+    
+}
+
+.link-grow2 {
+    transform: scale(2);
+    background: black;
+   
+
 }
 
 .hovered-link {
     color: white;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.hovered-link2 {
+    color: white;
+    transition-property: all;
+    transition-duration: 0.3s;
 }
 
 .font-desc {

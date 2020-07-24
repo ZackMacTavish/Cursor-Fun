@@ -1,6 +1,6 @@
 let mouseCursor = document.querySelector(".cursor");
 let navLinks = document.querySelectorAll('.nav-links li');
-let fontDesc = document.querySelectorAll('.font-desc');
+let bigHover = document.querySelector('.text1');
 
 window.addEventListener("mousemove", cursor);
 window.addEventListener("scroll", cursor);
@@ -22,6 +22,20 @@ link.addEventListener("mouseover", () => {
     link.classList.add("hovered-link");
 });
 
+bigHover.addEventListener("mouseover", () => {
+    
+    mouseCursor.classList.add("link-grow2")
+    bigHover.classList.add("hovered-link2");
+});
 
+bigHover.addEventListener("mouseleave", () => {
+    
+    mouseCursor.classList.remove("link-grow2")
+    bigHover.classList.remove("hovered-link2");
+});
+
+ 
 
 });
+
+// if bigHover === mouseover { text1 + text 2 will invert only in mouseCursor}
